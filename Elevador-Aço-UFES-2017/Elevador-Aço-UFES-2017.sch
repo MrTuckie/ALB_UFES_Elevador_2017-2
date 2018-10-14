@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:arduino
-LIBS:misc
+EESchema Schematic File Version 4
 LIBS:Elevador-Aço-UFES-2017-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SW_PUSH B6
+L Elevador-Aço-UFES-2017-rescue:SW_PUSH B6
 U 1 1 599B8CD9
 P 1450 1200
 F 0 "B6" H 1600 1310 50  0000 C CNN
@@ -57,7 +26,7 @@ F 3 "" H 1450 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH B5
+L Elevador-Aço-UFES-2017-rescue:SW_PUSH B5
 U 1 1 599B8CF0
 P 1450 1650
 F 0 "B5" H 1600 1760 50  0000 C CNN
@@ -68,7 +37,7 @@ F 3 "" H 1450 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH B4
+L Elevador-Aço-UFES-2017-rescue:SW_PUSH B4
 U 1 1 599B8D09
 P 1400 2150
 F 0 "B4" H 1550 2260 50  0000 C CNN
@@ -79,7 +48,7 @@ F 3 "" H 1400 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH B3
+L Elevador-Aço-UFES-2017-rescue:SW_PUSH B3
 U 1 1 599B8D24
 P 1400 2600
 F 0 "B3" H 1550 2710 50  0000 C CNN
@@ -90,7 +59,7 @@ F 3 "" H 1400 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH B2
+L Elevador-Aço-UFES-2017-rescue:SW_PUSH B2
 U 1 1 599B8D41
 P 1400 3050
 F 0 "B2" H 1550 3160 50  0000 C CNN
@@ -101,7 +70,7 @@ F 3 "" H 1400 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH B1
+L Elevador-Aço-UFES-2017-rescue:SW_PUSH B1
 U 1 1 599B8D76
 P 1400 3550
 F 0 "B1" H 1550 3660 50  0000 C CNN
@@ -112,7 +81,7 @@ F 3 "" H 1400 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L Elevador-Aço-UFES-2017-rescue:R R6
 U 1 1 599B8E7E
 P 2100 1200
 F 0 "R6" V 2180 1200 50  0000 C CNN
@@ -123,7 +92,7 @@ F 3 "" H 2100 1200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R5
+L Elevador-Aço-UFES-2017-rescue:R R5
 U 1 1 599B8EDA
 P 2100 1650
 F 0 "R5" V 2180 1650 50  0000 C CNN
@@ -134,7 +103,7 @@ F 3 "" H 2100 1650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L Elevador-Aço-UFES-2017-rescue:R R4
 U 1 1 599B8F01
 P 2100 2150
 F 0 "R4" V 2180 2150 50  0000 C CNN
@@ -145,7 +114,7 @@ F 3 "" H 2100 2150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L Elevador-Aço-UFES-2017-rescue:R R3
 U 1 1 599B8F6A
 P 2050 2600
 F 0 "R3" V 2130 2600 50  0000 C CNN
@@ -156,7 +125,7 @@ F 3 "" H 2050 2600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R2
+L Elevador-Aço-UFES-2017-rescue:R R2
 U 1 1 599B8F95
 P 2050 3050
 F 0 "R2" V 2130 3050 50  0000 C CNN
@@ -167,7 +136,7 @@ F 3 "" H 2050 3050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L Elevador-Aço-UFES-2017-rescue:R R1
 U 1 1 599B8FD4
 P 2050 3550
 F 0 "R1" V 2130 3550 50  0000 C CNN
@@ -178,7 +147,7 @@ F 3 "" H 2050 3550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74HC14 U1
+L Elevador-Aço-UFES-2017-rescue:74HC14 U1
 U 1 1 599B92B7
 P 9050 1350
 F 0 "U1" H 9200 1450 50  0000 C CNN
@@ -189,7 +158,7 @@ F 3 "" H 9050 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC14 U1
+L Elevador-Aço-UFES-2017-rescue:74HC14 U1
 U 2 1 599B9832
 P 9050 1750
 F 0 "U1" H 9200 1850 50  0000 C CNN
@@ -200,7 +169,7 @@ F 3 "" H 9050 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC14 U1
+L Elevador-Aço-UFES-2017-rescue:74HC14 U1
 U 3 1 599B9907
 P 9050 2150
 F 0 "U1" H 9200 2250 50  0000 C CNN
@@ -211,7 +180,7 @@ F 3 "" H 9050 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC14 U1
+L Elevador-Aço-UFES-2017-rescue:74HC14 U1
 U 4 1 599B9950
 P 9050 2550
 F 0 "U1" H 9200 2650 50  0000 C CNN
@@ -222,7 +191,7 @@ F 3 "" H 9050 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC14 U1
+L Elevador-Aço-UFES-2017-rescue:74HC14 U1
 U 5 1 599B99D3
 P 9050 2950
 F 0 "U1" H 9200 3050 50  0000 C CNN
@@ -233,7 +202,7 @@ F 3 "" H 9050 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC14 U1
+L Elevador-Aço-UFES-2017-rescue:74HC14 U1
 U 6 1 599B9A52
 P 9050 3350
 F 0 "U1" H 9200 3450 50  0000 C CNN
@@ -244,7 +213,7 @@ F 3 "" H 9050 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D5
+L Elevador-Aço-UFES-2017-rescue:LED D5
 U 1 1 599BA3B6
 P 10000 1350
 F 0 "D5" H 10000 1450 50  0000 C CNN
@@ -255,7 +224,7 @@ F 3 "" H 10000 1350 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L LED D3
+L Elevador-Aço-UFES-2017-rescue:LED D3
 U 1 1 599BA55D
 P 10000 1750
 F 0 "D3" H 10000 1850 50  0000 C CNN
@@ -266,7 +235,7 @@ F 3 "" H 10000 1750 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L LED D6
+L Elevador-Aço-UFES-2017-rescue:LED D6
 U 1 1 599BA5B0
 P 10000 2150
 F 0 "D6" H 10000 2250 50  0000 C CNN
@@ -277,7 +246,7 @@ F 3 "" H 10000 2150 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L LED D1
+L Elevador-Aço-UFES-2017-rescue:LED D1
 U 1 1 599BA60F
 P 10000 2550
 F 0 "D1" H 10000 2650 50  0000 C CNN
@@ -288,7 +257,7 @@ F 3 "" H 10000 2550 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L LED D4
+L Elevador-Aço-UFES-2017-rescue:LED D4
 U 1 1 599BA65A
 P 10000 2950
 F 0 "D4" H 10000 3050 50  0000 C CNN
@@ -299,7 +268,7 @@ F 3 "" H 10000 2950 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L LED D2
+L Elevador-Aço-UFES-2017-rescue:LED D2
 U 1 1 599BA6AB
 P 10000 3350
 F 0 "D2" H 10000 3450 50  0000 C CNN
@@ -310,7 +279,7 @@ F 3 "" H 10000 3350 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R R7
+L Elevador-Aço-UFES-2017-rescue:R R7
 U 1 1 599BADB4
 P 9650 1350
 F 0 "R7" V 9730 1350 50  0000 C CNN
@@ -321,7 +290,7 @@ F 3 "" H 9650 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R8
+L Elevador-Aço-UFES-2017-rescue:R R8
 U 1 1 599BB063
 P 9650 1750
 F 0 "R8" V 9730 1750 50  0000 C CNN
@@ -332,7 +301,7 @@ F 3 "" H 9650 1750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R9
+L Elevador-Aço-UFES-2017-rescue:R R9
 U 1 1 599BB127
 P 9650 2150
 F 0 "R9" V 9730 2150 50  0000 C CNN
@@ -343,7 +312,7 @@ F 3 "" H 9650 2150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R10
+L Elevador-Aço-UFES-2017-rescue:R R10
 U 1 1 599BB1AF
 P 9650 2550
 F 0 "R10" V 9730 2550 50  0000 C CNN
@@ -354,7 +323,7 @@ F 3 "" H 9650 2550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R11
+L Elevador-Aço-UFES-2017-rescue:R R11
 U 1 1 599BB298
 P 9650 2950
 F 0 "R11" V 9730 2950 50  0000 C CNN
@@ -365,7 +334,7 @@ F 3 "" H 9650 2950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R12
+L Elevador-Aço-UFES-2017-rescue:R R12
 U 1 1 599BB34D
 P 9650 3350
 F 0 "R12" V 9730 3350 50  0000 C CNN
@@ -376,7 +345,7 @@ F 3 "" H 9650 3350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D8
+L Elevador-Aço-UFES-2017-rescue:LED D8
 U 1 1 599BC6DD
 P 10250 5200
 F 0 "D8" H 10250 5300 50  0000 C CNN
@@ -393,7 +362,7 @@ LED'S (5V de Vcc)\n
 Text Notes 1150 1000 0    60   ~ 0
 Botões dos andares \n(externo)
 $Comp
-L LED D7
+L Elevador-Aço-UFES-2017-rescue:LED D7
 U 1 1 599BCEFD
 P 10000 3800
 F 0 "D7" H 10000 3900 50  0000 C CNN
@@ -404,7 +373,7 @@ F 3 "" H 10000 3800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LM7805 U3
+L Elevador-Aço-UFES-2017-rescue:LM7805 U3
 U 1 1 599BDCA2
 P 6150 4200
 F 0 "U3" H 6300 4004 50  0000 C CNN
@@ -415,7 +384,7 @@ F 3 "" H 6150 4200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 599BFA39
 P 6150 4450
 F 0 "#PWR?" H 6150 4200 50  0001 C CNN
@@ -426,7 +395,7 @@ F 3 "" H 6150 4450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59AF3636
 P 2250 1200
 F 0 "#PWR?" H 2250 1050 50  0001 C CNN
@@ -437,7 +406,7 @@ F 3 "" H 2250 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59AF36C6
 P 2250 1650
 F 0 "#PWR?" H 2250 1500 50  0001 C CNN
@@ -448,7 +417,7 @@ F 3 "" H 2250 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59AF3725
 P 2250 2150
 F 0 "#PWR?" H 2250 2000 50  0001 C CNN
@@ -459,7 +428,7 @@ F 3 "" H 2250 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59AF3789
 P 2200 2600
 F 0 "#PWR?" H 2200 2450 50  0001 C CNN
@@ -470,7 +439,7 @@ F 3 "" H 2200 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59AF37ED
 P 2200 3050
 F 0 "#PWR?" H 2200 2900 50  0001 C CNN
@@ -481,7 +450,7 @@ F 3 "" H 2200 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 59AF38FB
 P 1150 1200
 F 0 "#PWR?" H 1150 950 50  0001 C CNN
@@ -492,7 +461,7 @@ F 3 "" H 1150 1200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 59AF3961
 P 1150 1650
 F 0 "#PWR?" H 1150 1400 50  0001 C CNN
@@ -503,7 +472,7 @@ F 3 "" H 1150 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 59AF39C5
 P 1100 2150
 F 0 "#PWR?" H 1100 1900 50  0001 C CNN
@@ -514,7 +483,7 @@ F 3 "" H 1100 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 59AF3A29
 P 1100 2600
 F 0 "#PWR?" H 1100 2350 50  0001 C CNN
@@ -525,7 +494,7 @@ F 3 "" H 1100 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 59AF3A8D
 P 1100 3050
 F 0 "#PWR?" H 1100 2800 50  0001 C CNN
@@ -548,7 +517,7 @@ Text GLabel 1750 3200 3    60   Output ~ 0
 Text GLabel 1750 3700 3    60   Output ~ 0
 4
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 59AF5BF6
 P 1100 3550
 F 0 "#PWR?" H 1100 3300 50  0001 C CNN
@@ -559,7 +528,7 @@ F 3 "" H 1100 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59AF5C7F
 P 2200 3550
 F 0 "#PWR?" H 2200 3400 50  0001 C CNN
@@ -570,7 +539,7 @@ F 3 "" H 2200 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C_Laranja_1
+L Elevador-Aço-UFES-2017-rescue:C C_Laranja_1
 U 1 1 59AF6AB7
 P 6550 4300
 F 0 "C_Laranja_1" H 6575 4400 50  0000 L CNN
@@ -581,7 +550,7 @@ F 3 "" H 6550 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C_Laranja_2
+L Elevador-Aço-UFES-2017-rescue:C C_Laranja_2
 U 1 1 59AF6B61
 P 5750 4300
 F 0 "C_Laranja_2" V 5775 4400 50  0000 L CNN
@@ -604,7 +573,7 @@ Text GLabel 8600 2950 0    60   Input ~ 0
 Text GLabel 8600 3350 0    60   Input ~ 0
 10
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59AFF7D2
 P 10200 1350
 F 0 "#PWR?" H 10200 1200 50  0001 C CNN
@@ -615,7 +584,7 @@ F 3 "" H 10200 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59AFF894
 P 10200 1750
 F 0 "#PWR?" H 10200 1600 50  0001 C CNN
@@ -626,7 +595,7 @@ F 3 "" H 10200 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59AFF8FC
 P 10200 2150
 F 0 "#PWR?" H 10200 2000 50  0001 C CNN
@@ -637,7 +606,7 @@ F 3 "" H 10200 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59AFF964
 P 10200 2550
 F 0 "#PWR?" H 10200 2400 50  0001 C CNN
@@ -648,7 +617,7 @@ F 3 "" H 10200 2550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59AFF9CC
 P 10200 2950
 F 0 "#PWR?" H 10200 2800 50  0001 C CNN
@@ -659,7 +628,7 @@ F 3 "" H 10200 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59AFFA34
 P 10200 3350
 F 0 "#PWR?" H 10200 3200 50  0001 C CNN
@@ -670,7 +639,7 @@ F 3 "" H 10200 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L Elevador-Aço-UFES-2017-rescue:R R13
 U 1 1 59B00F0D
 P 9650 3800
 F 0 "R13" V 9730 3800 50  0000 C CNN
@@ -681,7 +650,7 @@ F 3 "" H 9650 3800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74LS05 U4
+L Elevador-Aço-UFES-2017-rescue:74LS05 U4
 U 5 1 59B04816
 P 9050 3800
 F 0 "U4" H 9245 3915 50  0000 C CNN
@@ -694,7 +663,7 @@ $EndComp
 Text GLabel 8600 3800 0    60   Input ~ 0
 18
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59B068E6
 P 10300 3800
 F 0 "#PWR?" H 10300 3650 50  0001 C CNN
@@ -709,7 +678,7 @@ Text GLabel 7100 4150 2    60   Output ~ 0
 Text GLabel 5500 4150 0    60   Input ~ 0
 23
 $Comp
-L TIP126 Q2
+L Elevador-Aço-UFES-2017-rescue:TIP126 Q2
 U 1 1 59B0ED52
 P 4000 1550
 F 0 "Q2" H 4250 1625 50  0000 L CNN
@@ -720,7 +689,7 @@ F 3 "" H 4000 1550 50  0000 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L D D?
+L Elevador-Aço-UFES-2017-rescue:D D?
 U 1 1 59B0EDF1
 P 4750 1550
 F 0 "D?" H 4750 1650 50  0000 C CNN
@@ -731,7 +700,7 @@ F 3 "" H 4750 1550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B0EE9E
 P 3650 1550
 F 0 "R?" V 3730 1550 50  0000 C CNN
@@ -746,7 +715,7 @@ P2(74026)
 Text GLabel 5300 950  1    60   Input ~ 0
 5V
 $Comp
-L R MOTOR
+L Elevador-Aço-UFES-2017-rescue:R MOTOR
 U 1 1 59B0FE60
 P 5300 1900
 F 0 "MOTOR" V 5380 1900 50  0000 C CNN
@@ -757,7 +726,7 @@ F 3 "" H 5300 1900 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C_Branco
+L Elevador-Aço-UFES-2017-rescue:C C_Branco
 U 1 1 59B0FF07
 P 5300 2200
 F 0 "C_Branco" H 5325 2300 50  0000 L CNN
@@ -768,7 +737,7 @@ F 3 "" H 5300 2200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TIP121 Q3
+L Elevador-Aço-UFES-2017-rescue:TIP121 Q3
 U 1 1 59B10586
 P 4000 2650
 F 0 "Q3" H 4250 2725 50  0000 L CNN
@@ -779,7 +748,7 @@ F 3 "" H 4000 2650 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D?
+L Elevador-Aço-UFES-2017-rescue:D D?
 U 1 1 59B106C9
 P 4750 2700
 F 0 "D?" H 4750 2800 50  0000 C CNN
@@ -792,7 +761,7 @@ $EndComp
 Text GLabel 3650 2400 1    60   Input ~ 0
 P8(7406)
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B10974
 P 3500 2650
 F 0 "R?" V 3580 2650 50  0000 C CNN
@@ -803,7 +772,7 @@ F 3 "" H 3500 2650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B10A75
 P 3100 2650
 F 0 "R?" V 3180 2650 50  0000 C CNN
@@ -816,7 +785,7 @@ $EndComp
 Text GLabel 2950 2400 1    60   Input ~ 0
 P6(7406)
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 59B10E2D
 P 5250 3050
 F 0 "#PWR?" H 5250 2800 50  0001 C CNN
@@ -827,7 +796,7 @@ F 3 "" H 5250 3050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TIP121 Q4
+L Elevador-Aço-UFES-2017-rescue:TIP121 Q4
 U 1 1 59B10FC8
 P 6400 2650
 F 0 "Q4" H 6650 2725 50  0000 L CNN
@@ -838,7 +807,7 @@ F 3 "" H 6400 2650 50  0000 L CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D D?
+L Elevador-Aço-UFES-2017-rescue:D D?
 U 1 1 59B11DAA
 P 5750 2700
 F 0 "D?" H 5750 2800 50  0000 C CNN
@@ -849,7 +818,7 @@ F 3 "" H 5750 2700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L D D?
+L Elevador-Aço-UFES-2017-rescue:D D?
 U 1 1 59B121D7
 P 5750 1600
 F 0 "D?" H 5750 1700 50  0000 C CNN
@@ -860,7 +829,7 @@ F 3 "" H 5750 1600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TIP126 Q1
+L Elevador-Aço-UFES-2017-rescue:TIP126 Q1
 U 1 1 59B1254A
 P 6400 1500
 F 0 "Q1" H 6650 1575 50  0000 L CNN
@@ -871,7 +840,7 @@ F 3 "" H 6400 1500 50  0000 L CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B12755
 P 6900 1500
 F 0 "R?" V 6980 1500 50  0000 C CNN
@@ -882,7 +851,7 @@ F 3 "" H 6900 1500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B128DB
 P 6900 2650
 F 0 "R?" V 6980 2650 50  0000 C CNN
@@ -893,7 +862,7 @@ F 3 "" H 6900 2650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B12991
 P 7300 2650
 F 0 "R?" V 7380 2650 50  0000 C CNN
@@ -910,7 +879,7 @@ P4(7406)
 Text GLabel 7500 2450 1    60   Input ~ 0
 P2(74026)
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 59B170E4
 P 9450 5900
 F 0 "#PWR?" H 9450 5650 50  0001 C CNN
@@ -923,7 +892,7 @@ $EndComp
 Text GLabel 9150 4800 0    60   Output ~ 0
 19
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B178C0
 P 9450 4500
 F 0 "R?" V 9530 4500 50  0000 C CNN
@@ -934,7 +903,7 @@ F 3 "" H 9450 4500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR?
+L power:+5V #PWR?
 U 1 1 59B19E5F
 P 9450 4350
 F 0 "#PWR?" H 9450 4200 50  0001 C CNN
@@ -945,7 +914,7 @@ F 3 "" H 9450 4350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B1A086
 P 10250 5550
 F 0 "R?" V 10330 5550 50  0000 C CNN
@@ -956,7 +925,7 @@ F 3 "" H 10250 5550 50  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 74LS05 U?
+L Elevador-Aço-UFES-2017-rescue:74LS05 U?
 U 1 1 59B1C642
 P 3950 3600
 F 0 "U?" H 4145 3715 50  0000 C CNN
@@ -967,7 +936,7 @@ F 3 "" H 3950 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS05 U?
+L Elevador-Aço-UFES-2017-rescue:74LS05 U?
 U 2 1 59B1C6C9
 P 3950 4000
 F 0 "U?" H 4145 4115 50  0000 C CNN
@@ -978,7 +947,7 @@ F 3 "" H 3950 4000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS05 U?
+L Elevador-Aço-UFES-2017-rescue:74LS05 U?
 U 3 1 59B1C76C
 P 3950 4400
 F 0 "U?" H 4145 4515 50  0000 C CNN
@@ -989,7 +958,7 @@ F 3 "" H 3950 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LS05 U?
+L Elevador-Aço-UFES-2017-rescue:74LS05 U?
 U 4 1 59B1C813
 P 3950 4800
 F 0 "U?" H 4145 4915 50  0000 C CNN
@@ -1020,7 +989,7 @@ Regulador de Tensão (12V -> 5V)
 Text Notes 5650 900  0    60   ~ 0
 Diodos de roda livre: IN4001 ou IN4007
 $Comp
-L CONN_02X13 P?
+L Elevador-Aço-UFES-2017-rescue:CONN_02X13 P?
 U 1 1 59B30A1B
 P 3700 5900
 F 0 "P?" H 3700 6600 50  0000 C CNN
@@ -1081,7 +1050,7 @@ Text GLabel 3450 6500 0    60   Output ~ 0
 Text Notes 6100 4900 0    60   ~ 0
 Soquete com resistores
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B34D97
 P 6700 5150
 F 0 "R?" V 6780 5150 50  0000 C CNN
@@ -1092,7 +1061,7 @@ F 3 "" H 6700 5150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B34EA4
 P 6700 5350
 F 0 "R?" V 6780 5350 50  0000 C CNN
@@ -1103,7 +1072,7 @@ F 3 "" H 6700 5350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B34F3A
 P 6700 5550
 F 0 "R?" V 6780 5550 50  0000 C CNN
@@ -1114,7 +1083,7 @@ F 3 "" H 6700 5550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B35093
 P 6700 5750
 F 0 "R?" V 6780 5750 50  0000 C CNN
@@ -1125,7 +1094,7 @@ F 3 "" H 6700 5750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B35128
 P 6700 5950
 F 0 "R?" V 6780 5950 50  0000 C CNN
@@ -1136,7 +1105,7 @@ F 3 "" H 6700 5950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R?
+L Elevador-Aço-UFES-2017-rescue:R R?
 U 1 1 59B351C3
 P 6700 6150
 F 0 "R?" V 6780 6150 50  0000 C CNN
@@ -1159,17 +1128,17 @@ P2(7406)
 Text GLabel 5950 5950 0    60   Output ~ 0
 P6(7406)
 Wire Wire Line
-	1750 1200 1950 1200
+	1750 1200 1800 1200
 Wire Wire Line
-	1750 1650 1950 1650
+	1750 1650 1800 1650
 Wire Wire Line
-	1700 2150 1950 2150
+	1700 2150 1750 2150
 Wire Wire Line
-	1700 2600 1900 2600
+	1700 2600 1750 2600
 Wire Wire Line
-	1700 3050 1900 3050
+	1700 3050 1750 3050
 Wire Wire Line
-	1700 3550 1900 3550
+	1700 3550 1750 3550
 Wire Wire Line
 	1800 1200 1800 1300
 Connection ~ 1800 1200
@@ -1203,21 +1172,21 @@ Wire Wire Line
 Wire Wire Line
 	5500 4150 5750 4150
 Wire Wire Line
-	5750 4450 6550 4450
+	5750 4450 6150 4450
 Connection ~ 6150 4450
 Wire Wire Line
-	4750 1200 4750 1400
+	4750 1200 4750 1300
 Wire Wire Line
 	4750 1300 4100 1300
 Wire Wire Line
 	4100 1300 4100 1350
 Wire Wire Line
-	4750 1200 6300 1200
+	4750 1200 5300 1200
 Wire Wire Line
 	5300 1200 5300 950 
 Connection ~ 4750 1300
 Wire Wire Line
-	4750 1700 4750 2550
+	4750 1700 4750 1750
 Wire Wire Line
 	4750 1750 4100 1750
 Wire Wire Line
@@ -1228,7 +1197,7 @@ Wire Wire Line
 Connection ~ 4750 1900
 Connection ~ 4750 2200
 Wire Wire Line
-	4100 2850 6300 2850
+	4100 2850 4750 2850
 Wire Wire Line
 	4100 2450 4750 2450
 Connection ~ 4750 2450
@@ -1245,16 +1214,14 @@ Connection ~ 4750 2850
 Connection ~ 5250 2850
 Connection ~ 5750 2850
 Wire Wire Line
-	5750 2550 5750 2450
-Wire Wire Line
 	5750 2450 6300 2450
 Wire Wire Line
-	5750 1750 5750 2500
+	5750 1750 5750 1900
 Wire Wire Line
 	5750 2200 5450 2200
 Connection ~ 5750 2500
 Wire Wire Line
-	5450 1900 6300 1900
+	5450 1900 5750 1900
 Connection ~ 5750 2200
 Connection ~ 5750 1900
 Wire Wire Line
@@ -1266,11 +1233,11 @@ Connection ~ 5750 1200
 Wire Wire Line
 	6300 1900 6300 1700
 Wire Wire Line
-	6600 1500 6750 1500
+	6600 1500 6650 1500
 Wire Wire Line
 	7050 2650 7150 2650
 Wire Wire Line
-	6600 2650 6750 2650
+	6600 2650 6650 2650
 Wire Wire Line
 	6650 2400 6650 2650
 Connection ~ 6650 2650
@@ -1292,21 +1259,19 @@ Connection ~ 9450 5900
 Wire Wire Line
 	10250 4350 10250 5000
 Wire Wire Line
-	2850 3600 3500 3600
+	2850 3600 3200 3600
 Wire Wire Line
 	3200 3600 3200 4800
 Wire Wire Line
 	3200 4800 3500 4800
 Wire Wire Line
-	3500 4000 3500 4400
+	3500 4000 3500 4200
 Connection ~ 3500 4200
 Connection ~ 3200 3600
 Wire Wire Line
 	3400 4200 3500 4200
 Wire Notes Line
 	8300 6200 10400 6200
-Wire Notes Line
-	2700 3300 5050 3300
 Wire Notes Line
 	5050 3300 5050 6750
 Wire Notes Line
@@ -1324,8 +1289,6 @@ Wire Notes Line
 Wire Notes Line
 	2650 700  2650 3300
 Wire Notes Line
-	2650 3300 7750 3300
-Wire Notes Line
 	7750 3300 7750 700 
 Wire Notes Line
 	7750 700  2650 700 
@@ -1333,10 +1296,6 @@ Wire Notes Line
 	5250 3550 5250 6300
 Wire Notes Line
 	5250 4650 7450 4650
-Wire Notes Line
-	7450 3550 7450 6300
-Wire Notes Line
-	7450 3600 7450 4050
 Wire Notes Line
 	7450 3550 5250 3550
 Wire Wire Line
@@ -1346,9 +1305,9 @@ Wire Wire Line
 Wire Wire Line
 	6150 5350 6150 6150
 Wire Wire Line
-	6000 6150 6550 6150
+	6000 6150 6150 6150
 Wire Wire Line
-	5950 5950 6550 5950
+	5950 5950 6400 5950
 Wire Wire Line
 	6400 5950 6400 5150
 Wire Wire Line
@@ -1381,7 +1340,7 @@ Wire Notes Line
 Text Notes 7050 6800 0    60   ~ 0
 Detalhe: Existe um potenciômetro amarelo\nque não tem como saber as suas conexões.
 $Comp
-L PHOTODIODE U2
+L Elevador-Aço-UFES-2017-rescue:PHOTODIODE U2
 U 1 1 599BC604
 P 9450 5200
 F 0 "U2" H 9650 5550 60  0000 C CNN
@@ -1399,4 +1358,64 @@ Connection ~ 9450 4650
 Text Notes 7100 7050 0    60   ~ 0
 Arthur Lorencini Bergamaschi
 Connection ~ 9450 4350
+Wire Wire Line
+	1800 1200 1950 1200
+Wire Wire Line
+	1800 1650 1950 1650
+Wire Wire Line
+	1750 3550 1900 3550
+Wire Wire Line
+	1750 3050 1900 3050
+Wire Wire Line
+	1750 2600 1900 2600
+Wire Wire Line
+	1750 2150 1950 2150
+Wire Wire Line
+	6150 4450 6550 4450
+Wire Wire Line
+	4750 1300 4750 1400
+Wire Wire Line
+	4750 1750 4750 1900
+Wire Wire Line
+	4750 1900 4750 2200
+Wire Wire Line
+	4750 2200 4750 2450
+Wire Wire Line
+	4750 2450 4750 2550
+Wire Wire Line
+	4750 2850 5250 2850
+Wire Wire Line
+	5250 2850 5750 2850
+Wire Wire Line
+	5750 2850 6300 2850
+Wire Wire Line
+	5750 2200 5750 2450
+Wire Wire Line
+	5750 1900 5750 2200
+Wire Wire Line
+	5750 1900 6300 1900
+Wire Wire Line
+	5300 1200 5750 1200
+Wire Wire Line
+	5750 1200 6300 1200
+Wire Wire Line
+	6650 2650 6750 2650
+Wire Wire Line
+	3500 4200 3500 4400
+Wire Wire Line
+	3200 3600 3500 3600
+Wire Wire Line
+	6150 6150 6550 6150
+Wire Wire Line
+	6400 5950 6550 5950
+Wire Wire Line
+	6650 1500 6750 1500
+Wire Wire Line
+	5750 2450 5750 2500
+Wire Wire Line
+	5750 2450 5750 2550
+Wire Notes Line
+	2650 3300 7750 3300
+Wire Notes Line
+	7450 3550 7450 6300
 $EndSCHEMATC

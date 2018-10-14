@@ -1,35 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:Conector Controlador + fonte-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -44,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DB25 J1
+L Conector-Controlador-+-fonte-rescue:DB25 J1
 U 1 1 59CF9F73
 P 2300 2900
 F 0 "J1" H 2350 4250 50  0000 C CNN
@@ -65,7 +36,7 @@ Arthur Lorencini Bergamaschi -\nRascunho das conexões do conector\ncontrolador 
 Text Notes 2950 950  0    60   ~ 0
 Conexão Placa  Controlador + Fonte\n
 $Comp
-L CONN_01X04 botões1
+L Conector-Controlador-+-fonte-rescue:CONN_01X04 botões1
 U 1 1 5A0E1311
 P 4550 1750
 F 0 "botões1" H 4550 2000 50  0000 C CNN
@@ -76,7 +47,7 @@ F 3 "" H 4550 1750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P1
+L Conector-Controlador-+-fonte-rescue:CONN_01X04 P1
 U 1 1 5A0E158A
 P 3400 2600
 F 0 "P1" H 3400 2850 50  0000 C CNN
@@ -87,7 +58,7 @@ F 3 "" H 3400 2600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P4
+L Conector-Controlador-+-fonte-rescue:CONN_01X04 P4
 U 1 1 5A0E15A9
 P 4550 2300
 F 0 "P4" H 4550 2550 50  0000 C CNN
@@ -98,7 +69,7 @@ F 3 "" H 4550 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P5
+L Conector-Controlador-+-fonte-rescue:CONN_01X04 P5
 U 1 1 5A0E15D4
 P 4550 3000
 F 0 "P5" H 4550 3250 50  0000 C CNN
@@ -109,7 +80,7 @@ F 3 "" H 4550 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P6
+L Conector-Controlador-+-fonte-rescue:CONN_01X04 P6
 U 1 1 5A0E15FD
 P 4550 3600
 F 0 "P6" H 4550 3850 50  0000 C CNN
@@ -120,7 +91,7 @@ F 3 "" H 4550 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P3
+L Conector-Controlador-+-fonte-rescue:CONN_01X04 P3
 U 1 1 5A0E1688
 P 4400 4100
 F 0 "P3" H 4400 4350 50  0000 C CNN
@@ -131,7 +102,7 @@ F 3 "" H 4400 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X08 P2
+L Conector-Controlador-+-fonte-rescue:CONN_01X08 P2
 U 1 1 5A0E16AD
 P 3500 4700
 F 0 "P2" H 3500 5150 50  0000 C CNN
@@ -212,7 +183,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 4000 3250 4250
 Wire Wire Line
-	3250 4250 4200 4250
+	3250 4250 3750 4250
 Wire Wire Line
 	2750 4100 3850 4100
 Wire Wire Line
@@ -236,13 +207,13 @@ Wire Wire Line
 Wire Wire Line
 	3900 3550 4350 3550
 Wire Wire Line
-	2750 3200 3700 3200
+	2750 3200 3150 3200
 Wire Wire Line
 	3700 3200 3700 3950
 Wire Wire Line
 	3700 3950 4200 3950
 Wire Wire Line
-	2750 3400 3450 3400
+	2750 3400 3400 3400
 Wire Wire Line
 	3450 3400 3450 4050
 Wire Wire Line
@@ -252,7 +223,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 3600 3350 4150
 Wire Wire Line
-	3350 4150 4200 4150
+	3350 4150 3550 4150
 Wire Wire Line
 	3150 4500 3150 3200
 Connection ~ 3150 3200
@@ -281,4 +252,12 @@ Text Notes 4800 3800 0    60   ~ 0
 10\n11\n12\n13
 Text Notes 4700 4300 0    60   ~ 0
 21\n22\n23\n25
+Wire Wire Line
+	3150 3200 3700 3200
+Wire Wire Line
+	3400 3400 3450 3400
+Wire Wire Line
+	3550 4150 4200 4150
+Wire Wire Line
+	3750 4250 4200 4250
 $EndSCHEMATC

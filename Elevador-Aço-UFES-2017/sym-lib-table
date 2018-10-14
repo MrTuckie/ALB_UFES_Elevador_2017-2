@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Elevador-Aço-UFES-2017-rescue)(type Legacy)(uri ${KIPRJMOD}/Elevador-Aço-UFES-2017-rescue.lib)(options "")(descr ""))
+)

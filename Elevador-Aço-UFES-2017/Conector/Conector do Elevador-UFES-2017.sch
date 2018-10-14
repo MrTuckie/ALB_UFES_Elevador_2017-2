@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:alb
+EESchema Schematic File Version 4
 LIBS:Conector do Elevador-UFES-2017-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L DB25 J1
+L Conector-do-Elevador-UFES-2017-rescue:DB25 J1
 U 1 1 59CF9F73
 P 2300 2900
 F 0 "J1" H 2350 4250 50  0000 C CNN
@@ -64,7 +34,7 @@ Arthur Lorencini Bergamaschi -\nRascunho das conexões do conector\ncontrolador 
 Text Notes 2950 950  0    60   ~ 0
 Conexão Placa do elevador\n
 $Comp
-L CONN_01X04 P2
+L Conector-do-Elevador-UFES-2017-rescue:CONN_01X04 P2
 U 1 1 5A0B70BC
 P 4400 1800
 F 0 "P2" H 4400 2050 50  0000 C CNN
@@ -75,7 +45,7 @@ F 3 "" H 4400 1800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P3
+L Conector-do-Elevador-UFES-2017-rescue:CONN_01X04 P3
 U 1 1 5A0B7120
 P 4400 2300
 F 0 "P3" H 4400 2550 50  0000 C CNN
@@ -86,7 +56,7 @@ F 3 "" H 4400 2300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P4
+L Conector-do-Elevador-UFES-2017-rescue:CONN_01X04 P4
 U 1 1 5A0B715A
 P 4400 2800
 F 0 "P4" H 4400 3050 50  0000 C CNN
@@ -97,7 +67,7 @@ F 3 "" H 4400 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P5
+L Conector-do-Elevador-UFES-2017-rescue:CONN_01X04 P5
 U 1 1 5A0B7185
 P 4400 3350
 F 0 "P5" H 4400 3600 50  0000 C CNN
@@ -108,7 +78,7 @@ F 3 "" H 4400 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P6
+L Conector-do-Elevador-UFES-2017-rescue:CONN_01X04 P6
 U 1 1 5A0B71A6
 P 4400 3850
 F 0 "P6" H 4400 4100 50  0000 C CNN
@@ -143,7 +113,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 1950 4200 1950
 Wire Wire Line
-	2750 4000 4200 4000
+	2750 4000 4150 4000
 Wire Wire Line
 	2750 3200 3100 3200
 Wire Wire Line
@@ -151,17 +121,13 @@ Wire Wire Line
 Wire Wire Line
 	3000 3600 3000 3900
 Wire Wire Line
-	3000 3900 4200 3900
-Wire Wire Line
 	2750 3400 2900 3400
 Wire Wire Line
 	2900 3400 2900 3800
 Wire Wire Line
-	2900 3800 4200 3800
+	2900 3800 3900 3800
 Wire Wire Line
 	3100 3200 3100 3700
-Wire Wire Line
-	3100 3700 4200 3700
 Wire Wire Line
 	2750 4100 3700 4100
 Wire Wire Line
@@ -169,25 +135,13 @@ Wire Wire Line
 Wire Wire Line
 	3700 3500 4200 3500
 Wire Wire Line
-	2750 3900 3450 3900
-Wire Wire Line
 	3450 3900 3450 3400
 Wire Wire Line
 	3450 3400 4200 3400
 Wire Wire Line
-	2750 3700 3250 3700
-Wire Wire Line
-	3250 3700 3250 3300
-Wire Wire Line
-	3250 3300 4200 3300
-Wire Wire Line
 	2750 3500 3250 3500
 Wire Wire Line
-	3250 3500 3250 3200
-Wire Wire Line
 	3250 3200 4200 3200
-Wire Wire Line
-	2750 3300 3450 3300
 Wire Wire Line
 	3450 3300 3450 2950
 Wire Wire Line
@@ -211,7 +165,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2300 4200 2250
 $Comp
-L CONN_01X04 P1
+L Conector-do-Elevador-UFES-2017-rescue:CONN_01X04 P1
 U 1 1 5A0B79B7
 P 3600 2550
 F 0 "P1" H 3600 2800 50  0000 C CNN
@@ -240,7 +194,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 2600 3400 2600
 $Comp
-L ALB ALB1
+L Conector-do-Elevador-UFES-2017-rescue:ALB ALB1
 U 1 1 5A0B781C
 P 2600 4550
 F 0 "ALB1" H 2600 4350 60  0001 C CNN
@@ -251,7 +205,7 @@ F 3 "" H 2600 4550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X08 P7
+L Conector-do-Elevador-UFES-2017-rescue:CONN_01X08 P7
 U 1 1 5A0E0FAE
 P 4050 4550
 F 0 "P7" H 4050 5000 50  0000 C CNN
@@ -279,4 +233,20 @@ Wire Wire Line
 Wire Wire Line
 	4150 4100 4150 4000
 Connection ~ 4150 4000
+Wire Wire Line
+	3650 3700 4200 3700
+Wire Wire Line
+	3900 3800 4200 3800
+Wire Wire Line
+	4100 3900 4200 3900
+Wire Wire Line
+	4150 4000 4200 4000
+Wire Wire Line
+	2750 3900 4100 3900
+Wire Wire Line
+	2750 3700 3650 3700
+Wire Wire Line
+	3250 3200 3250 3700
+Wire Wire Line
+	2750 3300 4200 3300
 $EndSCHEMATC

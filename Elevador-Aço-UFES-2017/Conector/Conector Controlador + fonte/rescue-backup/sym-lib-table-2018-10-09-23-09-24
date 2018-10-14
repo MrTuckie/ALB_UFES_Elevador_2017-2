@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Conector-Controlador-+-fonte-rescue)(type Legacy)(uri "${KIPRJMOD}/Conector Controlador + fonte-rescue.lib")(options "")(descr ""))
+)

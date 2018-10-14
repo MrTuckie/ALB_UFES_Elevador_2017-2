@@ -1,11 +1,23 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Conector-Controlador-+-fonte-rescue:CONN_01X04
+# ALB
 #
-DEF Conector-Controlador-+-fonte-rescue:CONN_01X04 P 0 40 Y N 1 F N
+DEF ALB ALB 0 40 Y Y 1 F N
+F0 "ALB" 0 -200 60 H I C CNN
+F1 "ALB" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -150 100 150 -100 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# CONN_01X04
+#
+DEF CONN_01X04 P 0 40 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
-F1 "Conector-Controlador-+-fonte-rescue:CONN_01X04" 100 0 50 V V C CNN
+F1 "CONN_01X04" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -27,11 +39,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conector-Controlador-+-fonte-rescue:CONN_01X08
+# CONN_01X08
 #
-DEF Conector-Controlador-+-fonte-rescue:CONN_01X08 P 0 40 Y N 1 F N
+DEF CONN_01X08 P 0 40 Y N 1 F N
 F0 "P" 0 450 50 H V C CNN
-F1 "Conector-Controlador-+-fonte-rescue:CONN_01X08" 100 0 50 V V C CNN
+F1 "CONN_01X08" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -61,11 +73,11 @@ X P8 8 -200 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Conector-Controlador-+-fonte-rescue:DB25
+# DB25
 #
-DEF Conector-Controlador-+-fonte-rescue:DB25 J 0 40 Y N 1 F N
+DEF DB25 J 0 40 Y N 1 F N
 F0 "J" 50 1350 50 H V C CNN
-F1 "Conector-Controlador-+-fonte-rescue:DB25" -50 -1350 50 H V C CNN
+F1 "DB25" -50 -1350 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
